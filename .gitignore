@@ -1,0 +1,55 @@
+# artefacts
+/target
+*/target
+/tmp
+/build
+*/build
+/bin
+*/bin
+
+# log
+*.log
+
+# OS X
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# IntelliJ
+out
+.idea
+*.ipr
+*.iws
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings
+.metadata
+
+# NetBeans
+.nbattrs
+
+# UNIX editors
+*~
+*.swp
+
+# compilers
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# compressors
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
