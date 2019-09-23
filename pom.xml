@@ -9,7 +9,7 @@
     <artifactId>bleve-log4j-appender</artifactId>
     <name>bleve-log4j-appender</name>
     <description>Bleve Log4j2 Appender</description>
-    <version>1.0.19</version>
+    <version>1.0.20</version>
 
     <properties>
         <com.squareup.retrofit2.version>2.6.1</com.squareup.retrofit2.version>

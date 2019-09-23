@@ -75,6 +75,12 @@ public class BleveAppender extends AbstractAppender {
                 .build();
 
         bleveService = retrofit.create(BleveService.class);
+
+        try {
+            bleveService.addIndex(indexName).execute();
+        } catch (IOException e) {
+            // just try to re-register index if user forgot to read our install steps
+        }
     }
 
     @PluginFactory
@@ -175,9 +181,9 @@ public class BleveAppender extends AbstractAppender {
                 }
             }
 
-            while (!queue.isEmpty()) {
-                flush();
-            }
+
+            flush();
+
         }
     };
 

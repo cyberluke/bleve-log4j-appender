@@ -4,7 +4,7 @@
   <groupId>org.clojars.lukas</groupId>
   <artifactId>bleve-log4j-appender</artifactId>
   <name>bleve-log4j-appender</name>
-  <version>1.0.19</version>
+  <version>1.0.20</version>
   <description>Bleve Log4j2 Appender</description>
   <build>
     <plugins>

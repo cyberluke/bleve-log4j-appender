@@ -10,4 +10,8 @@ public interface BleveService {
 
     @PUT("/api/{indexName}/{docID}")
     Call<Object> addIndex(@Path("indexName") String indexName, @Path("docID") String docID, @Body RequestBody body);
+
+    @PUT("/api/{indexName}")
+    Call<Object> addIndex(@Path("indexName") String indexName);
+
 }
